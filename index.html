@@ -11,42 +11,58 @@
 <body>
   <main>
     <section class="lateral-bar">
-      <h2 class="dashboard">Dashboard</h2>
+      <h2 class="dashboard"> <img src="./assets/view-dashboard.svg" class="dashboard-icon" alt="">Dashboard</h2>
       <div class="nav">
         <ul>
-          <li class="list-element">Home</li>
-          <li class="list-element">Profile</li>
-          <li class="list-element">Messages</li>
-          <li class="list-element">History</li>
-          <li class="list-element">Tasks</li>
-          <li class="list-element">Communities</li>
+          <li class="list-element"> <img class="icon" src="./assets/home-outline.svg" alt="icon">Home</li>
+          <li class="list-element"> <img class="icon" src="./assets/account-circle-outline.svg" alt="icon">Profile</li>
+          <li class="list-element"> <img class="icon" src="./assets/message-processing-outline.svg" alt="icon">Messages
+          </li>
+          <li class="list-element"> <img class="icon" src="./assets/history.svg" alt="icon">History</li>
+          <li class="list-element"> <img class="icon" src="./assets/calendar-check.svg" alt="icon">Tasks</li>
+          <li class="list-element"> <img class="icon" src="./assets/account-group.svg" alt="icon">Communities</li>
         </ul>
         <ul>
-          <li>Settings</li>
-          <li>Support</li>
-          <li>Privacy</li>
+          <li class="list-element"> <img class="icon" src="./assets/cog.svg" alt="icon">Settings</li>
+          <li class="list-element"> <img class="icon" src="./assets/face-agent.svg" alt="icon">Support</li>
+          <li class="list-element"> <img class="icon" src="./assets/shield-account.svg" alt="icon">Privacy</li>
         </ul>
       </div>
     </section>
     <section class="main-section">
       <header class="header-section">
-        <div class="name-section">
-          <div class="img">
+        <section class="search-section">
+          <div class="search-input">
+            <img src="./assets/magnify.svg" class="icon" alt="">
+            <input class="search-bar" id="search-bar"></input>
+          </div>
+          <div class="user-section">
+            <img src="./assets/magnify.svg" class="icon" alt="">
+            <img src="./assets/magnify.svg" class="img" alt="">
+            <h3 class="user">David Pardo</h3>
+          </div>
+        </section>
+        <section class="name-section">
+          <div class="name">
+            <div class="img">
 
+            </div>
+            <div class="welcome">
+              <h4>Hi there, </h4>
+              <h3>David Pardo Calzadilla</h3>
+            </div>
           </div>
-          <div class="welcome">
-            <h4>Hi there, </h4>
-            <h3>David Pardo Calzadilla</h3>
+          <div class="buttons-section">
+            <button>New</button>
+            <button>Update</button>
+            <button>Share</button>
           </div>
-        </div>
-        <div class="buttons-section">
-          <button>New</button>
-          <button>Update</button>
-          <button>Share</button>
-        </div>
+        </section>
       </header>
       <div class="content">
-
+        <section class="card-section">
+          <div class="card"></div>
+        </section>
       </div>
     </section>
   </main>
