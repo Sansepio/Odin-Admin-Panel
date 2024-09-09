@@ -138,6 +138,7 @@ button {
 .header-section {
   display: grid;
   grid-template-rows: 1fr 1fr;
+  max-height: 250px;
 }
 
 .name-section {
